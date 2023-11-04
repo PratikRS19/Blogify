@@ -134,13 +134,7 @@ const Login = () => {
             <FontAwesomeIcon icon={faGoogle} />
           </button>
 
-          <button
-            type="button"
-            className="btn btn-link btn-floating mx-1 btn-lg"
-            onClick={githubSignin}
-          >
-            <FontAwesomeIcon icon={faGithub} />
-          </button>
+          
         </div>
       </form>
     </div>
