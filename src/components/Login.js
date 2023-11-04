@@ -125,7 +125,13 @@ const Login = () => {
             Not a member? <Link to={"/reg"}>Register</Link>
           </p>
           <p>or sign up with:</p>
-
+          <button
+            type="button"
+            className="btn btn-link btn-floating mx-1 btn-lg"
+            onClick={githubSignin}
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </button>
           <button
             type="button"
             className="btn btn-link btn-floating mx-1 btn-lg"
